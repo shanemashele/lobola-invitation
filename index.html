@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lobola Ceremony Invitation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<style>  
+ #hidden-verse {
+    display: none;
+    font-style: italic;
+    font-size: 1.3rem;
+    margin-top: 20px;
+    color: #fff;
+}
+</style>
+<body>
+    <div class="invitation-container">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1 class="fade-in">You Are Invited!</h1>
+            <h2 class="fade-in">Lobola Ceremony of</h2>
+            <h1 class="names fade-in">Shane Mokwena & Langutelani Machavi</h1>
+            <p class="fade-in">Join us in celebrating this special occasion</p>
+            <p class="fade-in">📅 <strong>Date:</strong> Saturday, 19 April 2025</p>
+            <p class="fade-in">📍 <strong>Venue:</strong> Cunningmore B Trust, Mpumalanga</p>
+            <p class="fade-in">⏰ <strong>Time:</strong> 10:00 AM</p>
+            
+            <!-- Biblical Verse -->
+            <div class="bible-verse fade-in">
+                <p><em>"Two are better than one, because they have a good return for their labor: If either of them falls down, one can help the other up."</em></p>
+                <p><strong>Ecclesiastes 4:9-10</strong></p>
+            </div>
+            <button class="rsvp fade-in" onclick="showVerse()">RSVP Now</button>
+
+            <p id="hidden-verse">"When the time is right, I, the Lord, will make it happen." – <strong>Isaiah 60:22</strong></p>
+        </div>
+    </div>
+
+    <script>
+        function showVerse() {
+            document.getElementById("hidden-verse").style.display = "block";
+        }
+    </script>
+</body>
+</html>
